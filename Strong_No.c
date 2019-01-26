@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 
 int main()
 {
@@ -55,6 +56,7 @@ int main()
             printf("\n\tThe Number is not a Strong No!\n");
         }
     }
-
+    
+    getch();
     return 0;
 }
